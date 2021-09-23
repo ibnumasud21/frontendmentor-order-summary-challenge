@@ -1,0 +1,16 @@
+@media only screen and (max-width: 450px){
+  .bottom-content{
+    margin: 0px 30px;
+  }
+  body{
+    background-image: url("../images/pattern-background-mobile.svg");
+  }
+
+  .illustration{
+    height: auto;
+  }
+  .order-card{
+
+    width: 90%;
+  }
+}

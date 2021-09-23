@@ -1,0 +1,126 @@
+
+/* Background Images */
+body{
+  background-image: url("../images/pattern-background-desktop.svg"); background-size: 100%; background-repeat: no-repeat; background-color: hsl(225, 100%, 94%); width: 100%; display: block; height: 100%;
+}
+/* End Background Images */
+
+/* Content Card */
+.order-card{
+  box-shadow: 0px 0px 50px hsl(225, 100%, 80%);
+  border-radius: 15px;
+  background-color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 450px;
+  height: auto;
+}
+/* End Content Card */
+
+/* Illustration section */
+.illustration{
+  border-radius: 15px 15px 0px 0px;
+  height: 230px;
+  width: 100%;
+}
+/* End Ilustration section */
+
+/* Margin for bottom content (under illustration)  */
+.bottom-content{
+  margin: 0px 40px;
+}
+/* End Bottom Content */
+
+/* The title */
+.order-title{
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: 900;
+  font-size: 25px;
+  margin-top: 50px;
+  word-break: break-all;
+}
+/* End Title */
+
+/* Paragraph */
+.paragraph{
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: hsl(224, 23%, 55%);
+  word-break: break-word;
+  margin: 20px 20px;
+}
+/* End paragraph */
+
+/* This is the plan css */
+.plan{
+  font-family: 'Red Hat Display', sans-serif;
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 10px;
+  height: 100%;
+}
+/* End plan */
+
+/* I don't know what to name this, but the purpose of this is to make inside content split to 3 horizontally */
+div.table {
+   width:100%;
+   /* important */
+   display:table;
+   padding: 20px 0px;
+   text-align:center;
+   font-family: 'Red Hat Display', sans-serif;
+}
+
+.table-cell {
+   display:table-cell;
+   vertical-align:middle;
+   word-break: break-all;
+   height: 100%;
+   font-family: 'Red Hat Display', sans-serif;
+}
+/* End table */
+
+/* Change link */
+.change-button{
+  color: hsl(245, 75%, 52%);
+  font-size: 14px;
+  font-weight: 900;
+}
+.change-button:hover{
+  text-decoration: none;
+  color: hsl(245, 75%, 68%);
+}
+/* End change link */
+
+/* Payment Button */
+.btn-payment{
+  font-family: 'Red Hat Display', sans-serif;
+  background-color: hsl(245, 75%, 52%);
+  color: #fff;
+  transition: all 0.3s ease 0s;
+  font-weight: 900;
+  word-break: break-all;
+  font-size: 16px;
+}
+.btn-payment:hover{
+  font-family: 'Red Hat Display', sans-serif;
+  background-color: hsl(245, 75%, 68%);
+  color: #fff;
+  transform: scale(1.02);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+/* Payment Button */
+
+/* Cancel Button */
+.cancel-button{
+  font-weight: 900; margin-bottom: 10px; font-family: 'Red Hat Display', sans-serif; text-decoration: none; color: hsl(224, 23%, 55%);
+
+}
+
+.cancel-button:hover{
+  color: black;
+}
+/* End Cancel Button */
